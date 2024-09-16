@@ -1,0 +1,82 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+}
+.secondbody{
+    margin: 9px;
+    height: 100vh;
+    background: linear-gradient(120deg, orange, red);
+    border-radius: 8px;
+}
+
+.navbar {
+
+
+    display: flex;
+    justify-content: center;
+    /* Ortalamayı sağlar */
+    align-items: center;
+    padding: 50px 20px;
+    color: #fff;
+    /* Logo hariç ortalamak için gerekli */
+
+}
+
+.navbar .logo {
+    position: absolute;
+    /* Logo sabitlenir */
+    left: 20px;
+    /* Sol kenara hizalanır */
+    font-size: 1.5em;
+    font-weight: bold;
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    
+}
+
+.nav-links li {
+    margin: 0;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 25px;
+   
+
+}
+
+.nav-links a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.nav-icons {
+    position: absolute;
+    /* İkonlar sabitlenir */
+    right: 20px;
+    /* Sağ kenara hizalanır */
+    display: flex;
+    gap: 10px;
+}
+
+.nav-icons a {
+    text-decoration: none;
+}
+
+.nav-icons img {
+    width: 24px;
+    height: 24px;
+}
