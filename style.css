@@ -15,6 +15,7 @@ body {
     height: 980px;
     background: linear-gradient(120deg, orange, red);
     border-radius: 8px;
+
 }
 
 .navbar {
@@ -213,4 +214,55 @@ body {
 .project-card:hover {
     transform: scale(1.05); /* Hover olduğunda kartı hafifçe büyüt */
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Hover olduğunda gölgeyi büyüt */
+}
+
+
+footer {
+    background: linear-gradient(120deg, #333, #111); /* Footer arka planı */
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    border-radius: 8px;
+    margin: 9px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: flex-end; /* İçeriği en sağa hizalar */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-text {
+    margin: 0;
+    text-align: left; /* Sol hizalama, fakat sağda konumlanacak */
+    margin-right: 20px; /* Sağda biraz boşluk bırakmak için */
+}
+
+.footer-quote {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Sağda hizalama */
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 1.1em;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.quote-author {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.quote-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
 }
